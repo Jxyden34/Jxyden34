@@ -67,9 +67,9 @@ I like understanding what happens under the hood: how systems behave, why they f
 My contribution graph, with a little more movement.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contribution-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/contribution-snake.svg" />
-  <img src="assets/contribution-snake.svg" alt="An animated snake moving through Jayden's GitHub contribution graph" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contribution-snake-dark.svg?v=1" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/contribution-snake.svg?v=1" />
+  <img src="assets/contribution-snake.svg?v=1" alt="An animated snake moving through Jayden's GitHub contribution graph" width="100%" />
 </picture>
 
 <sub>Generated weekly from my contribution graph with [snk](https://github.com/Platane/snk). [Prefer the static graph?](https://github.com/Jxyden34?tab=overview#year-list-container)</sub>
