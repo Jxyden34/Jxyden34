@@ -22,6 +22,15 @@ I like understanding what happens under the hood: how systems behave, why they f
 - **Practical automation** — Python, PowerShell and Bash to reduce repetitive work and make problems easier to diagnose.
 - **Local AI & experiments** — self-hosted inference, useful AI integrations and the occasional simulated city.
 
+## Currently building
+
+- **[Engram](https://github.com/Jxyden34/Engram):** refining local AI memory, reflection and reviewed project briefs.
+- **[Cosmopod OS](https://github.com/Jxyden34/cosmopod-os):** working through development images, hardware testing and update/recovery qualification.
+
+Across both, I'm focused on useful automation, clear documentation and systems I can recover when something breaks.
+
+<sub>Focus snapshot: October 2026. The badges below pull release, version and workflow data from GitHub.</sub>
+
 ## Featured project · Engram
 
 <a href="https://github.com/Jxyden34/Engram">
@@ -31,6 +40,9 @@ I like understanding what happens under the hood: how systems behave, why they f
     <img src="assets/project-engram-dark.svg" alt="Explore Engram — self-hosted personal memory, local AI and MCP" width="100%" />
   </picture>
 </a>
+
+[![Engram latest published release](https://img.shields.io/github/v/release/Jxyden34/Engram?sort=date&style=flat-square&label=release&labelColor=172334&color=0284c7)](https://github.com/Jxyden34/Engram/releases/latest)
+[![Engram CI status on main](https://img.shields.io/github/actions/workflow/status/Jxyden34/Engram/ci.yml?branch=main&style=flat-square&label=CI&labelColor=172334)](https://github.com/Jxyden34/Engram/actions/workflows/ci.yml)
 
 [**Engram**](https://github.com/Jxyden34/Engram) brings documents, saved pages and conversations together in a self-hosted personal memory and AI context platform. It combines local Ollama processing, source-aware retrieval, human review and project-scoped MCP access, with encrypted backups and isolated restore checks.
 
@@ -51,6 +63,11 @@ I like understanding what happens under the hood: how systems behave, why they f
 
 </p>
 
+[![Cosmopod development version from main VERSION](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2FJxyden34%2Fcosmopod-os%2Fmain%2FVERSION&query=%24&label=dev&style=flat-square&labelColor=172334&color=7c3aed)](https://github.com/Jxyden34/cosmopod-os/blob/main/VERSION)
+[![Cosmopod repository validation status on main](https://img.shields.io/github/actions/workflow/status/Jxyden34/cosmopod-os/validate.yml?branch=main&style=flat-square&label=repo%20checks&labelColor=172334)](https://github.com/Jxyden34/cosmopod-os/actions/workflows/validate.yml)
+
+<sub>Development version and repository checks; image and hardware qualification are ongoing.</sub>
+
 <p>
 <a href="https://github.com/Jxyden34/Axiom-City">
   <picture>
@@ -62,10 +79,14 @@ I like understanding what happens under the hood: how systems behave, why they f
 
 </p>
 
+[![Axiom City latest update on main](https://img.shields.io/github/last-commit/Jxyden34/Axiom-City/main?style=flat-square&label=updated&labelColor=172334&color=047857)](https://github.com/Jxyden34/Axiom-City/commits/main/)
+
+<sub>Experimental project. No published release or build workflow yet.</sub>
+
 | Project | What it's about | Focus |
 | :--- | :--- | :--- |
-| [**Endpoint remediation**](https://github.com/Jxyden34/StaleTeamsProfileRemidiation) | A project proposal for detecting stale Windows profiles and safely remediating legacy Teams remnants. | PowerShell · Intune |
-| [**hindley.tech**](https://hindley.tech) | My portfolio, technical projects and experiments in interactive web design. | Web · Self-hosting |
+| [**Endpoint remediation**](https://github.com/Jxyden34/StaleTeamsProfileRemidiation)<br>[![Endpoint remediation CI on main](https://img.shields.io/github/actions/workflow/status/Jxyden34/StaleTeamsProfileRemidiation/ci.yml?branch=main&style=flat-square&label=CI&labelColor=172334)](https://github.com/Jxyden34/StaleTeamsProfileRemidiation/actions/workflows/ci.yml) | A project proposal for detecting stale Windows profiles and safely remediating legacy Teams remnants. | PowerShell · Intune |
+| [**hindley.tech**](https://hindley.tech)<br>[![Portfolio latest update on main](https://img.shields.io/github/last-commit/Jxyden34/hindley.tech/main?style=flat-square&label=updated&labelColor=172334&color=0284c7)](https://github.com/Jxyden34/hindley.tech/commits/main/) | My portfolio, technical projects and experiments in interactive web design. | Web · Self-hosting |
 
 ## Tools I reach for
 
@@ -126,6 +147,10 @@ My contribution graph, with a little more movement.
 </picture>
 
 <sub>Generated weekly from my contribution graph with [snk](https://github.com/Platane/snk). [Prefer the static graph?](https://github.com/Jxyden34?tab=overview#year-list-container)</sub>
+
+## Away from the terminal
+
+Retro handhelds, customising my Nintendo DSi and finding new things to do with older hardware. The same curiosity, just with a smaller screen.
 
 ---
 
