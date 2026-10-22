@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Jayden Hindley — Infrastructure, automation and local AI. Build with curiosity. Run with responsibility." width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg?v=2" />
+    <img src="assets/header.svg?v=2" alt="Jayden Hindley — Infrastructure, automation and local AI. Build with curiosity. Run with responsibility." width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -20,7 +24,13 @@ I like understanding what happens under the hood: how systems behave, why they f
 
 ## Featured project · Engram
 
-### Your knowledge. Your context. Your server.
+<a href="https://github.com/Jxyden34/Engram">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/project-engram-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/project-engram-dark.svg" />
+    <img src="assets/project-engram-dark.svg" alt="Explore Engram — self-hosted personal memory, local AI and MCP" width="100%" />
+  </picture>
+</a>
 
 [**Engram**](https://github.com/Jxyden34/Engram) brings documents, saved pages and conversations together in a self-hosted personal memory and AI context platform. It combines local Ollama processing, source-aware retrieval, human review and project-scoped MCP access, with encrypted backups and isolated restore checks.
 
@@ -30,10 +40,30 @@ I like understanding what happens under the hood: how systems behave, why they f
 
 ## More things I'm building
 
+<p>
+<a href="https://github.com/Jxyden34/cosmopod-os">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/project-cosmopod-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/project-cosmopod-dark.svg" />
+    <img src="assets/project-cosmopod-dark.svg" alt="Explore Cosmopod OS — a Linux distribution project for Raspberry Pi and x86-64. Development builds." width="100%" />
+  </picture>
+</a>
+
+</p>
+
+<p>
+<a href="https://github.com/Jxyden34/Axiom-City">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/project-axiom-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/project-axiom-dark.svg" />
+    <img src="assets/project-axiom-dark.svg" alt="Explore Axiom City — an experimental city simulation powered by local AI" width="100%" />
+  </picture>
+</a>
+
+</p>
+
 | Project | What it's about | Focus |
 | :--- | :--- | :--- |
-| [**Cosmopod OS**](https://github.com/Jxyden34/cosmopod-os) | A Linux distribution project for Raspberry Pi and x86-64 VMs, exploring Wayland and Mender A/B updates. Development builds. | Linux · Yocto · Shell |
-| [**Axiom City**](https://github.com/Jxyden34/Axiom-City) | An experimental city simulation where local AI tries to keep a city running. | TypeScript · Local AI |
 | [**Endpoint remediation**](https://github.com/Jxyden34/StaleTeamsProfileRemidiation) | A project proposal for detecting stale Windows profiles and safely remediating legacy Teams remnants. | PowerShell · Intune |
 | [**hindley.tech**](https://hindley.tech) | My portfolio, technical projects and experiments in interactive web design. | Web · Self-hosting |
 
@@ -52,6 +82,29 @@ I like understanding what happens under the hood: how systems behave, why they f
 </p>
 
 **Also in the mix:** Microsoft Intune, Azure, Proxmox, KVM/libvirt, Node.js, Next.js, WireGuard and GPU workloads.
+
+## Inside the lab
+
+The projects are the visible part. Underneath, I enjoy the work that keeps them useful: running services, watching for problems, automating the repetitive bits and making recovery manageable.
+
+<details>
+<summary><strong>Open the blueprint → infrastructure, workloads and operations</strong></summary>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/lab-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/lab-dark.svg" />
+  <img src="assets/lab-dark.svg" alt="Lab overview: Linux and Windows virtual machines and containers support self-hosted services, local AI and web projects. Monitoring, automation, backups and recovery support their operation." width="100%" />
+</picture>
+
+- **Infrastructure:** Linux and Windows, virtual machines and containers.
+- **Workloads:** self-hosted services, local AI and web projects.
+- **Operations:** monitoring, automation, backups and recovery.
+
+<sub>A conceptual overview of how I approach the lab.</sub>
+
+</details>
 
 ## Activity & after hours
 

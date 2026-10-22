@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Jayden Hindley</title>
+  <desc id="desc">Infrastructure, automation and local AI. A light blue banner with cyan and violet network connections.</desc>
+<style>
+  .packet { stroke-dasharray: 8 210; animation: travel 8s linear infinite; }
+  .halo { transform-box: fill-box; transform-origin: center; animation: breathe 6s ease-in-out infinite; }
+  @keyframes travel { to { stroke-dashoffset: -436; } }
+  @keyframes breathe { 0%,100% { opacity: .25; } 50% { opacity: .65; } }
+  @media (prefers-reduced-motion: reduce) { .packet,.halo { animation: none; } }
+</style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="310" gradientUnits="userSpaceOnUse"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#e5effc"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#0284c7"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#94a3b8" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="1198" height="308" rx="20" fill="url(#bg)" stroke="#c9d8eb"/>
+  <rect x="1" y="1" width="1198" height="308" rx="20" fill="url(#grid)"/>
+  <path d="M32 1H1168" stroke="url(#accent)" stroke-width="2"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="3" fill="#0369a1"><text x="55" y="66">JXYDEN34 / HINDLEY.TECH</text></g>
+  <text x="51" y="143" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-2" fill="#14243a">Jayden Hindley<tspan fill="#0284c7">.</tspan></text>
+  <text x="55" y="189" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="23" fill="#3d526b">Infrastructure. Automation. Local AI.</text>
+  <path d="M55 226H680" stroke="#c9d8eb"/>
+  <text x="55" y="262" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" fill="#506784">Build with curiosity. Run with responsibility.</text>
+  <g transform="translate(965 153)">
+    <circle r="111" stroke="#8ca6c8" stroke-opacity=".5"/>
+    <circle r="77" stroke="#8ca6c8" stroke-opacity=".5" stroke-dasharray="3 9"/>
+    <path d="M-90-65L0 0L79-76M0 0L104 39M0 0L-52 98M-90-65L79-76L104 39L-52 98Z" stroke="url(#accent)" stroke-opacity=".5" stroke-width="1.5"/>
+    <path class="packet" d="M-90-65L0 0L79-76M0 0L104 39M0 0L-52 98" stroke="#0369a1" stroke-width="3" stroke-linecap="round"/>
+    <circle class="halo" r="100" stroke="#7c3aed" stroke-width="2"/>
+    <rect x="-38" y="-28" width="76" height="56" rx="13" fill="#e4effc" stroke="#0284c7"/>
+    <path d="M-19-9L-9 0L-19 9M1 10H19" stroke="#0369a1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-90" cy="-65" r="8" fill="#f8fbff" stroke="#0284c7" stroke-width="2"/>
+    <circle cx="79" cy="-76" r="8" fill="#f8fbff" stroke="#7c3aed" stroke-width="2"/>
+    <circle cx="104" cy="39" r="8" fill="#f8fbff" stroke="#7c3aed" stroke-width="2"/>
+    <circle cx="-52" cy="98" r="8" fill="#f8fbff" stroke="#0284c7" stroke-width="2"/>
+    <circle cx="0" cy="-111" r="3" fill="#94a3b8"/>
+  </g>
+</svg>

@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Jayden Hindley</title>
   <desc id="desc">Infrastructure, automation and local AI. A dark navy banner with cyan and violet network connections.</desc>
+<style>
+  .packet { stroke-dasharray: 8 210; animation: travel 8s linear infinite; }
+  .halo { transform-box: fill-box; transform-origin: center; animation: breathe 6s ease-in-out infinite; }
+  @keyframes travel { to { stroke-dashoffset: -436; } }
+  @keyframes breathe { 0%,100% { opacity: .25; } 50% { opacity: .65; } }
+  @media (prefers-reduced-motion: reduce) { .packet,.halo { animation: none; } }
+</style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="310" gradientUnits="userSpaceOnUse"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#15233b"/></linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
@@ -18,6 +25,8 @@
     <circle r="111" stroke="#42577a" stroke-opacity=".5"/>
     <circle r="77" stroke="#42577a" stroke-opacity=".5" stroke-dasharray="3 9"/>
     <path d="M-90-65L0 0L79-76M0 0L104 39M0 0L-52 98M-90-65L79-76L104 39L-52 98Z" stroke="url(#accent)" stroke-opacity=".5" stroke-width="1.5"/>
+    <path class="packet" d="M-90-65L0 0L79-76M0 0L104 39M0 0L-52 98" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round"/>
+    <circle class="halo" r="100" stroke="#a78bfa" stroke-width="2"/>
     <rect x="-38" y="-28" width="76" height="56" rx="13" fill="#132639" stroke="#38bdf8"/>
     <path d="M-19-9L-9 0L-19 9M1 10H19" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="-90" cy="-65" r="8" fill="#0d1117" stroke="#38bdf8" stroke-width="2"/>
